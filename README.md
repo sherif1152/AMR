@@ -47,7 +47,7 @@ roslaunch navigtion_pkg gmapping.launch
 ```
 ## Run navigition in Rviz
 ```
- roslaunch navigtion_pkg gmapping.launch 
+ roslaunch navigtion_pkg navigation.launch
 ```
 this launch have ('Amcl' , 'move_base' , 'Map server' , 'rviz')
 
