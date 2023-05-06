@@ -36,7 +36,7 @@ using :
 roslaunch gazebo_pkg gazebo.launch 
 ```
 
-## Creat 2D map
+## Create 2D map
 ```
 roslaunch navigtion_pkg gmapping.launch
 ```
@@ -45,7 +45,7 @@ roslaunch navigtion_pkg gmapping.launch
 ```
  rosrun map_server map_saver 
 ```
-## Run navigition in Rviz
+## Run navigtion in Rviz
 ```
  roslaunch navigtion_pkg navigation.launch
 ```
