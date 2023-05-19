@@ -7,14 +7,6 @@
  <link name="odom">
   </link>
 
-  <link name="base_link">
-  </link>
-   <joint name="joint_base" type="fixed">
-        <parent link="odom"/>
-        <child link="base_link"/>
-  </joint>
- 
-
   <!-- CHASSIS LINK -->
   <link name="chassis">
         <inertial>
@@ -37,7 +29,7 @@
         </collision>
   </link>
   <joint name="joint_chassis" type="fixed">
-        <parent link="base_link"/>
+        <parent link="odom"/>
         <child link="chassis"/>
   </joint>
  
