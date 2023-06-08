@@ -7,7 +7,7 @@
 	<arg name="initial_pose_a" default="0.000" />
   
     <!-- Start the map server -->
-  <node name="map_server" pkg="map_server" type="map_server" args="$(find gmapping)/maps/map.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find navigtion_pkg)/maps/map.yaml"/>
 
   <!-- AMCL -->
   <node pkg="amcl" type="amcl" name="amcl">
