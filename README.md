@@ -25,6 +25,7 @@
 
 ## Description
 This Autonomous mobile robot with skid steer drive, i used the Unified Robot Description Format (URDF) to build this robot .
+
 used gmapping package provides laser-based SLAM (Simultaneous Localization and Mapping) to create a 2D occupancy grid map .
 
 AMCL is a probabilistic localization system for a robot moving in 2D.
